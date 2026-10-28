@@ -1092,6 +1092,31 @@
             お申し込みを受け付けました。
           </p>
 
+          <!-- 【一時対応】メール案内版（LINE準備が整ったら、下の mailGuideArea に hidden を付け、
+               lineGuideArea の hidden を外すと元のLINE案内に戻ります） -->
+          <div id="mailGuideArea">
+
+            <p class="success-lead">
+              参加に関するご案内は、運営事務局より<br>
+              改めてメールにてご連絡いたします。
+            </p>
+
+            <div class="line-guide">
+              <div class="line-guide-title">
+                ご案内メールについて
+              </div>
+
+              <p class="line-guide-text">
+                ご登録のアドレスへお送りします。<br>
+                届かない場合は迷惑メールフォルダも<br>
+                ご確認ください。
+              </p>
+            </div>
+
+          </div>
+
+          <div id="lineGuideArea" class="hidden">
+
           <p class="success-lead">
             参加に関するご案内は公式LINEよりお送りします。<br>
             下のボタンから公式LINEを友だち追加してください。
@@ -1117,6 +1142,8 @@
               「申し込み済みの方はこちら」より
               <strong>お名前</strong>と<strong>イベント名</strong>をご入力ください。
             </p>
+          </div>
+
           </div>
 
           <div
